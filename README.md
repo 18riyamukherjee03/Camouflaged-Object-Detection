@@ -3,7 +3,7 @@
 A deep learning project for detecting and segmenting objects that blend into their surroundings. The model uses a **ConvNeXt-Small encoder–decoder**, attention-based feature enhancement, multi-scale feature aggregation, and edge-aware learning to produce segmentation masks for camouflaged objects.
 
 <p align="center">
-  <a href="https://huggingface.co/spaces/penguin18/camouflage-object-detection"><strong>🚀 Try the Live Demo on Hugging Face Spaces</strong></a>
+  <a href="https://huggingface.co/spaces/penguin18/camouflage-object-detection"><strong> Try the Live Demo on Hugging Face Spaces</strong></a>
 </p>
 
 ## Demo
@@ -51,7 +51,8 @@ The project uses camouflaged images paired with ground-truth segmentation masks.
 | CAMO test set | 250 |
 | CHAMELEON test set | 76 |
 | COD10K test set | 2,026 |
-| **Total images reported** | **6,392** |
+| Total testing images | 2,352 |
+| Overall Complete Dataset | 6,392 |
 
 Images and masks are resized to 448 × 448 pixels and normalized. Random horizontal flipping is used for training augmentation.
 
@@ -97,10 +98,7 @@ The report gives the following overall evaluation results for the proposed model
 
 The current project focuses on still images rather than video or real-time streams. Performance may vary with dataset diversity and especially difficult camouflage, and the model may require optimization for resource-constrained deployment. Future directions include video-based detection, lightweight architectures, and further boundary refinement.
 
-## Acknowledgements
-
-Project completed as part of the M.Sc. Computer Science programme at the National Institute of Technology, Tiruchirappalli, under the guidance of Dr. Balaji Banothu.
 
 ---
 
-**Note:** The screenshots and architecture image in this repository are stored in the `images/` folder. Keep that folder at the same level as this `README.md` so GitHub can render the images.
+
